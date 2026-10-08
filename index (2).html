@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KIER | Projects, code and games</title>
+<meta name="description" content="Hand-built projects and games by Kier, pulled live from GitHub.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="#">KIER<span>.DEV</span></a>
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#game">Game</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="tag">★ BUILT IN PUBLIC</p>
+    <h1>KIER'S<br>CODE<br>CORNER</h1>
+    <p class="lead">Small projects, experiments and games, made by hand and posted on GitHub.</p>
+    <div class="row">
+      <a class="btn yellow" href="#projects">Browse Projects</a>
+      <a class="btn pink" href="game.html">Play Snake</a>
+      <a class="btn white" id="gh-link" href="#">View GitHub</a>
+    </div>
+    <div class="stat"><b id="count">0</b><span>Projects published</span></div>
+  </section>
+
+  <div class="strip" aria-hidden="true">
+    <div class="strip-in"><span>HTML ★ CSS ★ JAVASCRIPT ★ GIT ★ GAMES ★ </span><span>HTML ★ CSS ★ JAVASCRIPT ★ GIT ★ GAMES ★ </span></div>
+  </div>
+
+  <section class="lucky">
+    <span class="sticker s1">WOW!</span><span class="sticker s2">COOL!</span>
+    <p class="tag">★ FEELING LUCKY?</p>
+    <h2>SURPRISE ME!</h2>
+    <p>Can't decide what to open? Let the site pick one of my projects for you.</p>
+    <button class="btn green" id="random" type="button">Random project</button>
+    <p class="small" id="lucky-note"></p>
+  </section>
+
+  <section id="projects">
+    <p class="tag">★ LIVE FROM GITHUB</p>
+    <h2>LATEST PROJECTS</h2>
+    <p class="sub">My newest public repositories, updated automatically.</p>
+    <p id="status" class="small">Loading projects…</p>
+    <ul id="repos" class="cards"></ul>
+    <a class="btn white" id="all-link" href="#">See all on GitHub</a>
+  </section>
+
+  <section id="game">
+    <p class="tag">★ PLAY NOW</p>
+    <div class="feature">
+      <div>
+        <h2>SNAKE</h2>
+        <p>Eat, grow, don't crash. Works with arrow keys on PC and swipes on your phone.</p>
+        <a class="btn pink" href="game.html">Play Snake</a>
+      </div>
+      <div class="art" aria-hidden="true">🐍</div>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="tag">★ ABOUT</p>
+    <h2>WHO'S KIER?</h2>
+    <p class="about">Write two or three sentences here: what you study or work on, what you're learning, and what you want to build next.</p>
+    <ul class="skills"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li></ul>
+  </section>
+
+  <section id="contact">
+    <p class="tag">★ SAY HI</p>
+    <h2>GOT AN IDEA?</h2>
+    <p>Want to work together or ask about a project? Send an email.</p>
+    <a class="btn yellow" href="mailto:your-email@example.com">your-email@example.com</a>
+  </section>
+</main>
+
+<footer>
+  <p><b>KIER.DEV</b> Made for curious people. © <span id="year"></span></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
