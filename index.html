@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kier | Developer Portfolio</title>
+<meta name="description" content="Projects and code by Kier.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#">Kier</a>
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>I build things and keep them in version control.</h1>
+    <p class="lead">Hi, I'm Kier. This site lists my latest public work, pulled straight from GitHub.</p>
+    <a class="btn" id="gh-link" href="#">View my GitHub</a>
+    <div class="graph-wrap" aria-label="Decorative activity grid">
+      <div id="graph" class="graph"></div>
+      <p class="graph-note">Sample activity grid (decorative)</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p id="status" class="muted">Loading repositories…</p>
+    <ul id="repos" class="repos"></ul>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Write two or three sentences here: what you study or work on, what you're learning, and what kind of projects you want to build next.</p>
+    <ul class="skills">
+      <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Want to work together or ask about a project? Send an email.</p>
+    <a class="btn" href="mailto:your-email@example.com">your-email@example.com</a>
+  </section>
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Kier. Hosted on GitHub Pages.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
